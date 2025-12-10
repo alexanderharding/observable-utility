@@ -1,6 +1,6 @@
 import { assertEquals } from "@std/assert";
 import { empty } from "./empty.ts";
-import { Observer } from "../observer/observer.ts";
+import { Observer } from "@xan/observer";
 import type { ObserverNotification } from "./materialize.ts";
 import { materialize } from "./materialize.ts";
 import { pipe } from "@xan/pipe";

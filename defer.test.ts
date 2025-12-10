@@ -1,5 +1,5 @@
 import type { ObserverNotification } from "./materialize.ts";
-import { Observer } from "../observer/observer.ts";
+import { Observer } from "@xan/observer";
 import { pipe } from "@xan/pipe";
 import { dematerialize } from "./dematerialize.ts";
 import { materialize } from "./materialize.ts";
